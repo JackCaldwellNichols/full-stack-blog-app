@@ -1,0 +1,71 @@
+.add {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.write-content{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.write-menu{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+}
+
+.title-input {
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+.editorContainer{
+    height: 300px;
+   
+}
+
+.editor {
+    border-bottom: none;
+    height: 100%;
+}
+.item{
+    text-align: center;
+    border:  1px solid lightgrey;
+    
+    padding-bottom: 5px;
+    height: 250px;
+}
+
+.item1{
+    text-align: center;
+    border:  1px solid lightgrey;
+    padding: 5px;
+    padding-bottom: 5px;
+    height: 250px;
+}
+
+.cat {
+    display: flex;
+    justify-content: start;
+}
+
+
+
+.file {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(5, 62, 62);
+    cursor: pointer;
+}
+
+
+
+
